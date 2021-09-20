@@ -1,0 +1,176 @@
+/*-------------------------------------------------------------- Navbar -------------------------------------------------------------------*/
+nav {
+    background-color:rgba(0, 0, 0, 0.411);
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.navbar-brand {
+    font-family: "Open Sans";
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.navbar-nav {
+    margin-left: 100px;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+.nav-link {
+    text-transform: uppercase;
+}
+#sign-up {
+    margin-left: 500px;
+}
+
+/*----------------------------------------------------------- Jumbotron/ Page 1 -------------------------------------------------------------*/
+.jumbotron {
+    background-image: url(assets/main-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 105vh;
+    background-position: center;
+    margin-top: -70px;
+    text-align: center;
+
+}
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+.jumbotron .lead {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-bottom: 30px;
+}
+.jumbotron .btn {
+    background-color: rgba(255, 145, 0, 0.795);
+    color: black;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/*-------------------------------------------------------------- Page 2 -------------------------------------------------------------------*/
+#page-2 {
+    background-image: url(assets/the-games-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    margin-top: -40px;
+    position: relative;
+}
+section img {
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-right: 250px;
+}
+.page-2 p {
+    color: white;
+    padding-top: 250px;
+    padding-left: 150px;
+}
+.page-2 h1 {
+    font-family: 'Open Sans';
+    letter-spacing: 3px;
+    color: white;
+    padding-left: 150px;
+    margin-top: -20px;
+    text-transform: uppercase;
+}
+
+/*-------------------------------------------------------------- Page 3 -------------------------------------------------------------------*/
+#page-3 {
+    background-image: url(assets/features.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin-top: -10px;
+}
+.page-3 .judul {
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+.page-3 .judul-2 {
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    padding-left: 350px;
+    margin-top: -20px;
+    text-transform: uppercase;
+}
+.page-3 .feature-1 {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(223, 151, 17);
+    text-align: center;
+    padding-left: 400px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.page-3 .feature-2 {
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    text-align: left;
+    padding-left: 810px;
+}
+.page-3 .feature-3 {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(223, 151, 17);
+    text-align: center;
+    padding-left: 320px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.page-3 .feature-4 {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(223, 151, 17);
+    text-align: center;
+    padding-left: 270px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+/*-------------------------------------------------------------- Page 4 -------------------------------------------------------------------*/
+.page-4 {
+    background-image: url(assets/requirements.png);
+    background-size: cover;
+    height: 100%;
+}
+.page-4 p {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 2px;
+}
+.page-4 h1 {
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+#table {
+    width: 10px;
+    height: 10px;
+    color: rgb(223, 151, 17);
+}
